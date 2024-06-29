@@ -1,14 +1,12 @@
 
 .all-xushnudbek{
     width: 100%;
-    border: 2px solid black;
     height: 100vh;
     background-color: rgba(75, 56, 98, 0.9);
 }
 .container-xushnudbek{
     width: 38%;
     margin: 0 auto;
-    border: 2px solid red;
     height: 100vh;
 }
 .texts-of-container h1{
@@ -31,7 +29,7 @@
 .reg-btn{
     width: 80%;
     margin: 0 auto;
-    font-size: 2.34rem;
+    font-size: 210%;
     color: aliceblue;
     border: none;
     display: flex;
@@ -42,4 +40,39 @@
     background-color: rgb(212, 91, 120);
     position: relative;
     bottom: 5%;
+    transition-duration: 1.5s;
+}
+.reg-btn:hover{
+    width: 88%;
+    margin: 0 auto;
+    font-size: 220%;
+    color: black;
+    background-color: orange;
+}
+@media screen and (max-width:1040px) {
+    .container-xushnudbek{
+        width: 65%;
+
+    }
+}
+@media screen and (max-width:700px) {
+    .reg-btn{
+        width: 60%;
+        font-size: 150%;
+        border: 2px solid black;
+    }
+}
+@media screen and (max-width:620px) {
+    .reg-btn{
+        width: 65%;
+        font-size: 1rem;
+        border: 2px solid blue;
+    }
+}
+@media screen and (max-width:410px) {
+    .reg-btn{
+        width: 75%;
+        font-size: 0.75rem;
+        border: 2px solid black;
+    }
 }
