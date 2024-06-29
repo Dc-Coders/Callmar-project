@@ -1,20 +1,15 @@
-
-
-#general{
-    width: 300px;
-    transform: translateX(-10px);
-    transition: all 1s ease-in-out;
-    position: absolute;
-    left: 10px;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-.open
-{
-
-    right: 500px;
-    background-color: red;
-    color: red;
+header {
+  background: linear-gradient(252.43deg, #d45b78 0.01%, #4b3862 101.01%);
 }
 
-
+main {
+  background: linear-gradient(252.43deg, #d45b78 0.01%, #4b3862 101.01%);
+}
