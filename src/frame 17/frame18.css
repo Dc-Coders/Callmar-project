@@ -1,0 +1,45 @@
+
+.all-xushnudbek{
+    width: 100%;
+    border: 2px solid black;
+    height: 100vh;
+    background-color: rgba(75, 56, 98, 0.9);
+}
+.container-xushnudbek{
+    width: 38%;
+    margin: 0 auto;
+    border: 2px solid red;
+    height: 100vh;
+}
+.texts-of-container h1{
+    color: aliceblue;
+    font-size: 2.33rem;
+}
+.texts-of-container h4{
+    color: aliceblue;
+    font-size: 1.05rem;
+}
+.input-container h5{
+    color: aliceblue;
+}
+.input-container input{
+    width: 96%;
+    height: 5vh;
+    border: none;
+
+}
+.reg-btn{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2.34rem;
+    color: aliceblue;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(212, 91, 120);
+    position: relative;
+    bottom: 5%;
+}
