@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.butto{
+    width: 1600px;
+    height: 850px;
+    background: rgb(212,91,120);
+    background: linear-gradient(135deg, rgba(212,91,120,0.9136904761904762) 0%, rgba(75,56,98,0.9501050420168067) 65%);;
+}
+.h1{
+    margin-top: 100px;
+    margin-left: 505px;
+    color: #FCFCFC;
+}
+.h5{
+    margin-top: 100px;
+    margin-left: 505px;
+}
+.inp1{
+    width: 520px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 500px;
+    border-color: #D75C78;
+}
+.h55{
+    margin-top: 50px;
+    margin-left: 505px;
+}
+.inp2{
+    width: 520px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 500px;
+    border-color: #D75C78;
+}
+.h6{
+    margin-top: 10px;
+    margin-left: 940px;
+    color: #D75C78;
+}
+.button{
+    width: 340px;
+    height: 75px;
+    margin-top: 40px;
+    margin-left: 600px;
+    background-color:#D75C78;
+    color: #FFFFFF;
+    border: none;
+}
+.h66{
+    margin-top: 60px;
+    margin-left: 740px;
+    color: #FFFFFF;
+}
